@@ -19,4 +19,4 @@ if (ruletNumber === 0) {
   result = "neplatná hodnota"
 }
 
-document.body.innerHTML = `Váš hod je = ${result}.`
+document.body.innerHTML += `<h1>Váš hod je = ${ruletNumber} - ${result}.</h1>`
